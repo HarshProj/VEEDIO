@@ -217,8 +217,8 @@ export default function Home() {
       </div>
           <div className="mt-[5.25rem] flex flex-col items-center overflow-hidden">
             <h2 className="  text-3xl font-[500]">Trusted By teams</h2>
-            <section className="py-11">
-
+            <section className=" py-11 w-full">
+           
                 <Corousal/>
             </section>
 
