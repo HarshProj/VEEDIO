@@ -223,6 +223,50 @@ export default function Home() {
             </section>
 
           </div>
+
+    </div>
+    <div className="grid items-center mx-auto w-[90%]">
+    <div className="sticky grid items-center grid-cols-6">
+      <div className=""></div>
+      <div className="">
+        <div className="flex items-center justify-center py-4 px-6 flex-col">
+          <h5 className="font-[500] text-lg">Free</h5>
+          <span className="mb-4 text-sm">₹0</span>
+          <button className="w-[100%] rounded-2xl border border-[#6474FF] hover:text-[#6474FF] font-sans w-36 h-10">Go Free</button>
+        </div>
+      </div>
+      <div className="">
+        <div className="flex items-center justify-center py-4 px-6 flex-col">
+          <h5 className="font-[500] text-lg">Basic</h5>
+          <span className="mb-4 text-sm">₹290.67 /mo, per user</span>
+          <button className="w-[100%] rounded-2xl border border-[#6474FF] hover:text-[#6474FF] font-sans w-36 h-10">Go Free</button>
+        </div>
+      </div>
+      <div className="">
+        <div className="flex items-center justify-center py-4 px-6 flex-col">
+          <h5 className="font-[500] text-lg">Pro</h5>
+          <span className="mb-4 text-sm">₹599 /mo, per user</span>
+          <button className="w-36 rounded-2xl text-white bg-gradient-to-r font-sans font-[500] from-[#6474ff] from-15.34% via-[#8078fd] via-21.77% to-[#cfc0fe] to-83.94% ease-in duration-[2s] trasition hover:from-[#6474ff] from-50.34% hover:to-[#cfc0fe] to-80.94%  h-10">Go Pro</button>
+        </div>
+      </div>
+      <div className="">
+        <div className="flex items-center justify-center py-4 px-6 flex-col">
+          <h5 className="font-[500] text-lg">Bussiness</h5>
+          <span className="mb-4 text-sm">₹1500 /mo, per user</span>
+          <button className="w-[100%] rounded-2xl border border-[#6474FF] hover:text-[#6474FF] font-sans w-36 h-10">Go Free</button>
+        </div>
+      </div>
+      <div className="">
+        <div className="flex items-center justify-center py-4 px-6 flex-col">
+          <h5 className="font-[500] text-lg">Enterprises</h5>
+          <span className="mb-4 text-xs">Custom pricing</span>
+          <button className="w-[100%] rounded-2xl border border-[#6474FF] hover:text-[#6474FF] font-sans w-36 h-10">Go Free</button>
+        </div>
+      </div>
+    </div>
+    <div className="grid box-border">
+      <h2>Video Creation</h2>
+    </div>
     </div>
         </main>
       </div>
