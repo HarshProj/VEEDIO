@@ -225,7 +225,7 @@ export default function Home() {
           </div>
 
     </div>
-    <div className="grid items-center mx-auto w-[90%]">
+    <div className="grid items-center mx-auto w-[85%]">
     <div className="sticky grid items-center grid-cols-6">
       <div className=""></div>
       <div className="">
@@ -264,8 +264,174 @@ export default function Home() {
         </div>
       </div>
     </div>
-    <div className="grid box-border">
-      <h2>Video Creation</h2>
+    <div className="grid box-border mt-4">
+      <h2 className=" font-[500] text-[#6474FF]">Video Creation</h2>
+    </div>
+    <div className=" grid items-center grid-cols-6">
+      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+        <div className="">Remove Watermark</div>
+        <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#8F9199" class="sc-bgqQPU echtKl sc-ieybfr bCBrsJ"><path d="M5 12H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </div>
+
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" fill="none"><path d="M5.59 10.046 1.774 6.228.5 7.5l5.09 5.091L16.5 1.682 15.227.41l-9.636 9.637Z" fill="#6474FF"></path></svg>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" fill="none"><path d="M5.59 10.046 1.774 6.228.5 7.5l5.09 5.091L16.5 1.682 15.227.41l-9.636 9.637Z" fill="#6474FF"></path></svg>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" fill="none"><path d="M5.59 10.046 1.774 6.228.5 7.5l5.09 5.091L16.5 1.682 15.227.41l-9.636 9.637Z" fill="#6474FF"></path></svg>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" fill="none"><path d="M5.59 10.046 1.774 6.228.5 7.5l5.09 5.091L16.5 1.682 15.227.41l-9.636 9.637Z" fill="#6474FF"></path></svg>
+      </div>
+      
+     
+    </div>
+    <div className=" grid items-center grid-cols-6">
+      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+        <div className="">Export Quality</div>
+        <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>720p</span>
+      </div>
+
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>1080p</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>1080p</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>4K</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>4K</span>
+      </div>
+    </div>
+    <div className=" grid items-center grid-cols-6">
+      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+        <div className="">Video Export Length</div>
+        <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>10minutes</span>
+      </div>
+
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>25minutes</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>2hours</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>2hours</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>2hours</span>
+      </div>
+      
+     
+    </div>
+    <div className=" grid items-center grid-cols-6">
+      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+        <div className="">Storage</div>
+        <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>2GB</span>
+      </div>
+
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>5GB</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>20GB</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>50GB</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>50GB+</span>
+      </div>
+      
+     
+    </div>
+    <div className=" grid items-center grid-cols-6">
+      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+        <div className="">VUpload File Size</div>
+        <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>1GB</span>
+      </div>
+
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>Unlimited</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>Unlimited</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>Unlimited</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>Unlimited</span>
+      </div>
+      
+     
+    </div>
+    <div className=" grid items-center grid-cols-6">
+      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+        <div className="">Stock Audio & Video</div>
+        <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>Limited</span>
+      </div>
+
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>Unlimited</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>Unlimited</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>Unlimited</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span>Unlimited</span>
+      </div>
+      
+     
+    </div>
+    <div className=" grid items-center grid-cols-6">
+      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+        <div className="">IOS App</div>
+        <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#8F9199" class="sc-bgqQPU echtKl sc-ieybfr bCBrsJ"><path d="M5 12H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </div>
+
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#8F9199" class="sc-bgqQPU echtKl sc-ieybfr bCBrsJ"><path d="M5 12H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" fill="none"><path d="M5.59 10.046 1.774 6.228.5 7.5l5.09 5.091L16.5 1.682 15.227.41l-9.636 9.637Z" fill="#6474FF"></path></svg>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" fill="none"><path d="M5.59 10.046 1.774 6.228.5 7.5l5.09 5.091L16.5 1.682 15.227.41l-9.636 9.637Z" fill="#6474FF"></path></svg>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" fill="none"><path d="M5.59 10.046 1.774 6.228.5 7.5l5.09 5.091L16.5 1.682 15.227.41l-9.636 9.637Z" fill="#6474FF"></path></svg>
+      </div>
+      
+     
     </div>
     </div>
         </main>
