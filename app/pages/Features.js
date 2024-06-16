@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Features = () => {
   return (
-    <div className="grid items-center mx-auto w-[85%]">
+    <div className="grid gap-2 items-center mx-auto w-[85%]">
     <div className="sticky grid pt-[120px] z-[3] bg-[#eceeee] top-0 items-center grid-cols-6">
       <div className=""></div>
       <div className="">
@@ -45,7 +45,7 @@ export const Features = () => {
       <h2 className=" font-[500] text-[#6474FF]">Video Creation</h2>
     </div>
     <div className=" grid items-center grid-cols-6">
-      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
         <div className="">Remove Watermark</div>
         <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
       </div>
@@ -69,7 +69,7 @@ export const Features = () => {
      
     </div>
     <div className=" grid items-center grid-cols-6">
-      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
         <div className="">Export Quality</div>
         <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
       </div>
@@ -91,7 +91,7 @@ export const Features = () => {
       </div>
     </div>
     <div className=" grid items-center grid-cols-6">
-      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
         <div className="">Video Export Length</div>
         <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
       </div>
@@ -115,7 +115,7 @@ export const Features = () => {
      
     </div>
     <div className=" grid items-center grid-cols-6">
-      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
         <div className="">Storage</div>
         <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
       </div>
@@ -139,7 +139,7 @@ export const Features = () => {
      
     </div>
     <div className=" grid items-center grid-cols-6">
-      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
         <div className="">VUpload File Size</div>
         <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
       </div>
@@ -163,7 +163,7 @@ export const Features = () => {
      
     </div>
     <div className=" grid items-center grid-cols-6">
-      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
         <div className="">Stock Audio & Video</div>
         <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
       </div>
@@ -187,7 +187,7 @@ export const Features = () => {
      
     </div>
     <div className=" grid items-center grid-cols-6">
-      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
         <div className="">IOS App</div>
         <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
       </div>
@@ -212,10 +212,130 @@ export const Features = () => {
     </div>
     <div className='mt-4 border border-t-0 border-gray-300' />
     <div className="grid box-border mt-4">
+      <h2 className=" font-[500] text-[#6474FF]">Powerfull Video Editing</h2>
+    </div>
+    <div className=" grid items-center grid-cols-6">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
+        <div className=" text-sm font-[500]">Auto Subtitles</div>
+        <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm'>30min/mo</span>
+      </div>
+
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm '>12hr/yr</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm '>24hr/yr</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm '>134hr/yr</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm '>Custom</span>
+      </div>
+      
+     
+    </div>
+    <div className=" grid items-center grid-cols-6">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
+        <div className=" text-sm font-[500]">Subtitle Translation</div>
+        <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm'>5min/mo</span>
+      </div>
+
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm '>1hr/yr</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm '>3hr/yr</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm '>6hr/yr</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm '>Custom</span>
+      </div>
+      
+     
+    </div>
+    <div className=" grid items-center grid-cols-6">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
+        <div className=" text-sm font-[500]">Download Subtitles</div>
+        <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#8F9199" class="sc-bgqQPU echtKl sc-ieybfr bCBrsJ"><path d="M5 12H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </div>
+
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#8F9199" class="sc-bgqQPU echtKl sc-ieybfr bCBrsJ"><path d="M5 12H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" fill="none"><path d="M5.59 10.046 1.774 6.228.5 7.5l5.09 5.091L16.5 1.682 15.227.41l-9.636 9.637Z" fill="#6474FF"></path></svg>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" fill="none"><path d="M5.59 10.046 1.774 6.228.5 7.5l5.09 5.091L16.5 1.682 15.227.41l-9.636 9.637Z" fill="#6474FF"></path></svg>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" fill="none"><path d="M5.59 10.046 1.774 6.228.5 7.5l5.09 5.091L16.5 1.682 15.227.41l-9.636 9.637Z" fill="#6474FF"></path></svg>
+      </div>
+    </div>
+    <div className=" grid items-center grid-cols-6">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
+        <div className=" text-sm font-[500]">Stock Templates</div>
+        <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm'>Limited</span>
+      </div>
+
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm '>Unlimited</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm '>Unlimited</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm '>Unlimited</span>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <span className=' text-sm '>Unlimited</span>
+      </div>
+      
+     
+    </div>
+    <div className=" grid items-center grid-cols-6">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
+        <div className=" text-sm font-[500]">Custom Templates</div>
+        <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#8F9199" class="sc-bgqQPU echtKl sc-ieybfr bCBrsJ"><path d="M5 12H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </div>
+
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#8F9199" class="sc-bgqQPU echtKl sc-ieybfr bCBrsJ"><path d="M5 12H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#8F9199" class="sc-bgqQPU echtKl sc-ieybfr bCBrsJ"><path d="M5 12H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" fill="none"><path d="M5.59 10.046 1.774 6.228.5 7.5l5.09 5.091L16.5 1.682 15.227.41l-9.636 9.637Z" fill="#6474FF"></path></svg>
+      </div>
+      <div className=" flex items-center justify-center pt-4 pb-2 pr-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" fill="none"><path d="M5.59 10.046 1.774 6.228.5 7.5l5.09 5.091L16.5 1.682 15.227.41l-9.636 9.637Z" fill="#6474FF"></path></svg>
+      </div>
+    </div>
+    <div className='mt-4 border border-t-0 border-gray-300' />
+    <div className="grid box-border mt-4">
       <h2 className=" font-[500] text-[#6474FF]">Support</h2>
     </div>
     <div className=" grid items-center grid-cols-6">
-      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
         <div className=" text-sm font-[500]">Support</div>
         <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
       </div>
@@ -239,7 +359,7 @@ export const Features = () => {
      
     </div>
     <div className=" grid items-center grid-cols-6">
-      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
         <div className=" text-sm font-[500]">Account Manager</div>
         <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
       </div>
@@ -263,7 +383,7 @@ export const Features = () => {
       </div>
     </div>
     <div className=" grid items-center grid-cols-6">
-      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
         <div className=" text-sm font-[500]">Workspace Setup</div>
         <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
       </div>
@@ -287,7 +407,7 @@ export const Features = () => {
       </div>
     </div>
     <div className=" grid items-center grid-cols-6">
-      <div className=" flex items-center justify-between pt-4 pb-4 pr-2">
+      <div className=" flex items-center justify-between pt-4 pb-2 pr-2">
         <div className=" text-sm font-[500]">Onboarding & Training</div>
         <div className=""><svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-jSpobA kWfdWV"><path d="M7 7v3m0-6v.5M13 7A6 6 0 1 1 1 7a6 6 0 0 1 12 0Z" stroke="#9094A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
       </div>
@@ -310,7 +430,7 @@ export const Features = () => {
       <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" fill="none"><path d="M5.59 10.046 1.774 6.228.5 7.5l5.09 5.091L16.5 1.682 15.227.41l-9.636 9.637Z" fill="#6474FF"></path></svg>
       </div>
     </div>
-    
+    <div className='mt-4 border border-t-0 border-gray-300' />
     </div>
   )
 }
