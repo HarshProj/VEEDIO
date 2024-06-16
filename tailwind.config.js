@@ -14,7 +14,13 @@ module.exports = {
       },
       boxShadow: {
         '3xl': 'rgba(25, 32, 51, 0.1) 0px 10px 40px 0px',
-      }
+      },
+      keyframes:{
+
+        slide:{
+          'to':{transform: 'translate(calc(-50% - 0.5rem))'},
+        }
+      },
     },
   },
   plugins: [],
